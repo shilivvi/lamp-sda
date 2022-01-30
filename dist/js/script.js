@@ -12,7 +12,7 @@ let defaultBr = 150;
 window.addEventListener('DOMContentLoaded', () => {
 
   //hack svg sprite
-  getSvgSprite( 'https://test-wp.proykey.by/wp-content/themes/sda-lamp2/src/img/sprite.svg' );
+  getSvgSprite( 'https://rawcdn.githack.com/shilivvi/lamp-sda/70c425376827670286c99475b516fb90fa877446/dist/img/sprite.svg' );
 
   document.querySelector('body').insertAdjacentHTML('afterbegin', html);
 
