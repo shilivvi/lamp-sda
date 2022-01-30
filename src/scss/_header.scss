@@ -1,0 +1,51 @@
+.header {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+
+  padding: 15px 0 20px 0;
+
+  background-color: #121212;
+
+  // .header__wrap
+
+  &__wrap {
+  }
+
+  // .header__nav
+
+  &__nav {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  // .header__list
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  // .header__icon
+
+  &__icon {
+    text-align: center;
+
+    margin-bottom: 10px;
+
+    & svg{
+      width: 50px;
+      height: 50px;
+      fill: #fff;
+    }
+
+  }
+
+  // .header__text
+
+  &__text {
+    text-align: center;
+  }
+}

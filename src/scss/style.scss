@@ -1,0 +1,62 @@
+@import "normalize";
+@import "reset";
+
+body{
+  background-color: #121212;
+
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #fff;
+  height: 100vh;
+  max-height: 100vh;
+  overflow: hidden;
+}
+
+*{
+	-webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.svg-sprite{
+  display: none;
+}
+
+.container{
+  width: 100%;
+  max-width: 100%;
+  padding: 0 15px;
+}
+
+.IroSlider{
+  display: none !important;  
+}
+
+.rgb:not(.active-menu),
+.modes:not(.active-menu){
+  display: none;
+}
+
+@import "header";
+@import "sliders-rgb";
+@import "rgb";
+@import "picker-rbg";
+@import "colors-rgb";
+@import "modes-rgb";
+@import "favorite-popup";
+@import "power-btn";
+@import "modes";
+
+.cur-mode{
+  background: #fff;
+  color: #121212;
+  font-weight: 600;
+}
+
+.cur-color{
+  border-width: 3px;
+}

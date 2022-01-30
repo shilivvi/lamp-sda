@@ -1,0 +1,41 @@
+.power-btn {
+
+  position: absolute;
+  top: 10px;
+  left: 10px;
+
+  &:not(.on){
+    & .power-btn__on{
+      display: none;
+    }
+    & .power-btn__off{
+      display: block;
+    }
+  }
+
+  &.on{
+    & .power-btn__on{
+      display: block;
+    }
+    & .power-btn__off{
+      display: none;
+    }
+  }
+
+
+  // .power-btn__btn
+
+  &__btn {
+    background: transparent;
+  }
+
+  &__svg{
+    fill: #fff;
+    width: 50px;
+    height: 50px;
+  }
+
+  // .power-btn__on
+  // .power-btn__off
+
+}

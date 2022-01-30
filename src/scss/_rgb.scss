@@ -1,0 +1,30 @@
+.rgb {
+
+  overflow: hidden;
+  padding-top: 15px;
+  position: relative;
+  // .rgb__wrap
+
+  &__wrap {
+  }
+
+  // .rgb__picker
+
+  &__picker {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+  }
+
+  // .rgb__sliders
+
+  &__sliders {
+  }
+
+  // .rgb__colors
+
+  &__colors {
+  }
+}

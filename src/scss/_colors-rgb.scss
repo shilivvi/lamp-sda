@@ -1,0 +1,49 @@
+.colors-rgb {
+  
+  margin-top: 30px;
+  
+  // .colors-rgb__row
+  &__row {
+
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 15px;
+
+  }
+
+  // .colors-rgb__item
+
+  &__item {
+
+    justify-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #fff;
+
+
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+
+    &--set{
+      border-width: 0px;
+
+      & .colors-rgb__plus{
+        display: none;
+      }
+
+    }
+
+  }
+
+  // .colors-rgb__item--save
+
+  &__item--save {
+  }
+
+  // .colors-rgb__plus
+
+  &__plus {
+  }
+}

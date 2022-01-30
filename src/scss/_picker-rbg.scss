@@ -1,0 +1,59 @@
+.picker-rbg {
+
+  position: relative;
+  // .picker-rbg__form
+
+  &__form {
+    position: absolute;
+    bottom: 0;
+    left: -10px;
+
+    font-size: 12px;
+    line-height: 1;
+    font-weight: 600;
+  }
+
+  // .picker-rbg__row
+
+  &__row {
+    display: flex;
+    align-items: center;
+
+    &--r{
+      background-color: rgba(red, 0.3);
+    }
+    &--g{
+      background-color: rgba(green, 0.3);   
+    }
+    &--b{
+      background-color: rgba(blue, 0.3);
+    }
+  }
+
+  // .picker-rbg__text
+
+  &__text {
+    margin-right: 5px;
+  }
+
+  // .picker-rbg__input
+
+  &__input {
+    outline: none;
+    background: transparent;
+    color: #fff;
+    max-width: 5ch;
+
+    -moz-appearance: textfield;
+
+    &::-webkit-outer-spin-button,
+    &::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+    }
+
+    &:focus{
+      font-size: 16px;
+    }
+  }
+}

@@ -1,0 +1,214 @@
+.sliders-rgb {
+
+  margin-top: 30px;
+  // .sliders-rgb__item
+
+  &__item {
+
+    display: flex;
+    align-items: center;
+    width: 100%;
+
+    &:not(:last-child){
+      margin-bottom: 20px;
+    }
+
+  }
+
+  // .sliders-rgb__icon
+
+  &__icon {
+
+    & svg{
+      width: 30px;
+      height: 30px;
+      fill: #fff;
+    }
+
+  }
+
+  // .sliders-rgb__icon--left
+
+  &__icon--left {
+  }
+
+  // .sliders-rgb__slider
+
+  &__slider {
+    width: 100%;
+    margin: 0 15px;
+  }
+
+  // .sliders-rgb__input
+
+  &__input {
+    width: 100%;
+    margin: 10px 0;
+    background-color: transparent;
+    -webkit-appearance: none;
+    border-radius: 5px;
+
+    &:focus {
+      outline: none;
+    }
+
+    &::-webkit-slider-runnable-track {
+      border: 0;
+      border-radius: 7.6px;
+      width: 100%;
+      height: 6px;
+      cursor: pointer;
+    }
+
+    &::-webkit-slider-thumb {
+      margin-top: -10px;
+      width: 25px;
+      height: 25px;
+      background: #ffffff;
+      border: 0;
+      border-radius: 50px;
+      cursor: pointer;
+      -webkit-appearance: none;
+    }
+
+    &::-moz-range-track {
+      border: 0;
+      border-radius: 7.6px;
+      width: 100%;
+      height: 6px;
+      cursor: pointer;
+    }
+    &::-moz-range-thumb {
+      width: 25px;
+      height: 25px;
+      background: #ffffff;
+      border: 0;
+      border-radius: 50px;
+      cursor: pointer;
+    }
+    &::-ms-track {
+      background: transparent;
+      border-color: transparent;
+      border-width: 12px 0;
+      color: transparent;
+      width: 100%;
+      height: 6px;
+      cursor: pointer;
+    }
+    &::-ms-fill-lower {
+      background: #fff;
+      border: 0;
+      border-radius: 15.2px;
+    }
+    &::-ms-fill-upper {
+      background: #fff;
+      border: 0;
+      border-radius: 15.2px;
+    }
+    &::-ms-thumb {
+      width: 25px;
+      height: 25px;
+      background: #ffffff;
+      border: 0;
+      border-radius: 50px;
+      cursor: pointer;
+      margin-top: 0px;
+      /*Needed to keep the Edge thumb centred*/
+    }
+    &:focus::-ms-fill-lower {
+      background: #fff;
+    }
+    &:focus::-ms-fill-upper {
+      background: #fff;
+    }
+  }
+
+  // .sliders-rgb__icon--right
+
+  &__icon--right {
+  }
+}
+
+
+
+// input[type=range] {
+//   width: 100%;
+//   margin: 12px 0;
+//   background-color: transparent;
+//   -webkit-appearance: none;
+// }
+// input[type=range]:focus {
+//   outline: none;
+// }
+// input[type=range]::-webkit-slider-runnable-track {
+//   background: #1083ff;
+//   border: 0;
+//   border-radius: 7.6px;
+//   width: 100%;
+//   height: 6px;
+//   cursor: pointer;
+// }
+// input[type=range]::-webkit-slider-thumb {
+//   margin-top: -12px;
+//   width: 30px;
+//   height: 30px;
+//   background: #ffffff;
+//   border: 0;
+//   border-radius: 50px;
+//   cursor: pointer;
+//   -webkit-appearance: none;
+// }
+// input[type=range]:focus::-webkit-slider-runnable-track {
+//   background: #2a90ff;
+// }
+// input[type=range]::-moz-range-track {
+//   background: #1083ff;
+//   border: 0;
+//   border-radius: 7.6px;
+//   width: 100%;
+//   height: 6px;
+//   cursor: pointer;
+// }
+// input[type=range]::-moz-range-thumb {
+//   width: 30px;
+//   height: 30px;
+//   background: #ffffff;
+//   border: 0;
+//   border-radius: 50px;
+//   cursor: pointer;
+// }
+// input[type=range]::-ms-track {
+//   background: transparent;
+//   border-color: transparent;
+//   border-width: 12px 0;
+//   color: transparent;
+//   width: 100%;
+//   height: 6px;
+//   cursor: pointer;
+// }
+// input[type=range]::-ms-fill-lower {
+//   background: #0076f6;
+//   border: 0;
+//   border-radius: 15.2px;
+// }
+// input[type=range]::-ms-fill-upper {
+//   background: #1083ff;
+//   border: 0;
+//   border-radius: 15.2px;
+// }
+// input[type=range]::-ms-thumb {
+//   width: 30px;
+//   height: 30px;
+//   background: #ffffff;
+//   border: 0;
+//   border-radius: 50px;
+//   cursor: pointer;
+//   margin-top: 0px;
+//   /*Needed to keep the Edge thumb centred*/
+// }
+// input[type=range]:focus::-ms-fill-lower {
+//   background: #1083ff;
+// }
+// input[type=range]:focus::-ms-fill-upper {
+//   background: #2a90ff;
+// }
